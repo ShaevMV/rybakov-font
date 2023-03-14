@@ -1,0 +1,161 @@
+@mixin mq($point) {
+  @if $point == w1400 {
+    @media all and (max-width: 1400px) {
+      @content;
+    }
+  }
+  @if $point == w1340 {
+    @media all and (max-width: 1340px) {
+      @content;
+    }
+  }
+  @if $point == w1300 {
+    @media all and (max-width: 1300px) {
+      @content;
+    }
+  }
+
+  @if $point == w1280 {
+    @media all and (max-width: 1280px) {
+      @content;
+    }
+  }
+  @if $point == w1240 {
+    @media all and (max-width: 1240px) {
+      @content;
+    }
+  }
+  @if $point == w1200 {
+    @media all and (max-width: 1200px) {
+      @content;
+    }
+  }
+
+  @if $point == w1130 {
+    @media all and (max-width: 1130px) {
+      @content;
+    }
+  }
+
+  @if $point == w1100 {
+    @media all and (max-width: 1100px) {
+      @content;
+    }
+  }
+
+  @if $point == w1080 {
+    @media all and (max-width: 1080px) {
+      @content;
+    }
+  }
+
+  @if $point == w1000 {
+    @media all and (max-width: 1000px) {
+      @content;
+    }
+  }
+
+
+  @if $point == w968 {
+    @media all and (max-width: 968px) {
+      @content;
+    }
+  }
+  @if $point == w900 {
+    @media all and (max-width: 900px) {
+      @content;
+    }
+  }
+
+  @if $point == w880 {
+    @media all and (max-width: 880px) {
+      @content;
+    }
+  }
+
+  @if $point == w850 {
+    @media all and (max-width: 850px) {
+      @content;
+    }
+  }
+
+  @if $point == w825 {
+    @media all and (max-width: 825px) {
+      @content;
+    }
+  }
+
+  @if $point == w770 {
+    @media all and (max-width: 770px) {
+      @content;
+    }
+  }
+
+  @if $point == w768 {
+    @media all and (max-width: 768px) {
+      @content;
+    }
+  }
+  @if $point == f680to768 {
+    @media all and (min-width: 680px) and (max-width: 768px) {
+      @content;
+    }
+  }
+  @if $point == w700 {
+    @media all and (max-width: 700px) {
+      @content;
+    }
+  }
+  @if $point == w680 {
+    @media all and (max-width: 680px) {
+      @content;
+    }
+  }
+  @if $point == w639 {
+    @media all and (max-width: 639px) {
+      @content;
+    }
+  }
+
+  @if $point == w550 {
+    @media all and (max-width: 550px) {
+      @content;
+    }
+  }
+
+  @if $point == w500 {
+    @media all and (max-width: 500px) {
+      @content;
+    }
+  }
+
+  @if $point == w479 {
+    @media all and (max-width: 479px) {
+      @content;
+    }
+  }
+
+  @if $point == w468 {
+    @media all and (max-width: 468px) {
+      @content;
+    }
+  }
+
+  @if $point == w420 {
+    @media all and (max-width: 420px) {
+      @content;
+    }
+  }
+
+  @if $point == w400 {
+    @media all and (max-width: 400px) {
+      @content;
+    }
+  }
+
+  @if $point == w350 {
+    @media all and (max-width: 350px) {
+      @content;
+    }
+  }
+}

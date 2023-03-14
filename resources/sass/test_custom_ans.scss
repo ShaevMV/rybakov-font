@@ -1,0 +1,49 @@
+.test_custom_ans {
+  max-width: 815px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 0 rgba(151, 152, 158, 0.35);
+  background-color: #ffffff;
+  margin-top: 100px;
+  padding: 40px 60px;
+
+  @include mq(w770) {
+    padding: 20px 30px;
+    margin-top: 50px;
+  }
+
+
+  .textarea_overlay {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 4px;
+    border: 1px solid #e5e5e5;
+    padding: 20px 15px;
+    min-height: 230px;
+    display: flex;
+
+    @include mq(w770) {
+      min-height: 180px;
+      margin-bottom: 20px;
+    }
+
+    textarea {
+      resize: none;
+      font-size: 16px;
+      font-weight: 400;
+      color: #333;
+
+      @include mq(w770) {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .amount_sym {
+    font-size: 16px;
+    color: #909090;
+
+    @include mq(w770) {
+      font-size: 14px;
+    }
+  }
+}

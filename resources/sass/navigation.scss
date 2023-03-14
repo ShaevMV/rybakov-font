@@ -1,0 +1,67 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+
+  @include mq(w968) {
+    flex-direction: column;
+  }
+
+  .pag_desc {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333333;
+    margin-right: 40px;
+
+    @include mq(w968) {
+      font-size: 14px;
+      margin-right: 0;
+    }
+  }
+
+  .pag_overlay {
+    margin: 0;
+
+    @include mq(w968) {
+      margin-top: 30px;
+    }
+    li {
+      width: 30px;
+      height: 30px;
+      border-radius: 4px;
+      border: solid 1px #e5e5e5;
+      padding: 0;
+      margin-bottom: 5px;
+
+      &:not(:last-child) {
+        margin-right: 8px;
+      }
+
+      &.uk-active {
+        background-color: #f2cc35;
+        border: 1px solid #f2cc35;
+      }
+
+      &.uk-disabled {
+        border: none;
+        text-align: center;
+      }
+
+      &:hover {
+        border: 1px solid #f2cc35;
+      }
+    }
+
+    a {
+      line-height: 28px;
+      text-align: center;
+      font-size: 16px;
+      color: #333333;
+
+      .grey_pag {
+        color: #cacaca;
+      }
+    }
+  }
+}

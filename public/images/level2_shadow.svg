@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="55px" viewBox="0 0 60 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="60" height="56"></rect>
+        <path d="M0,30 C0,13.432 13.432,0 30,0 C46.568,0 60,13.432 60,30" id="path-3"></path>
+        <filter x="-20.8%" y="-55.0%" width="141.7%" height="183.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="-4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.949019608   0 0 0 0 0.8   0 0 0 0 0.207843137  0 0 0 0.4 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.0" transform="translate(-1033.000000, -505.000000)">
+            <g id="Group-7" transform="translate(1033.000000, 505.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Rectangle"></g>
+                <g id="Group-23" mask="url(#mask-2)">
+                    <g transform="translate(0.000000, 9.000000)">
+                        <g id="Fill-1" fill="none">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        </g>
+                        <polygon id="Fill-3" fill="#47BA00" fill-rule="evenodd" points="30 30 26 34 22 30 26 26"></polygon>
+                        <polygon id="Fill-5" fill="#47BA00" fill-rule="evenodd" points="18 26 22 30 26 26 22 22"></polygon>
+                        <polygon id="Fill-7" fill="#47BA00" fill-rule="evenodd" points="34 34 30 38 26 34 30 30"></polygon>
+                        <polygon id="Fill-9" fill="#47BA00" fill-rule="evenodd" points="26 42 30 46 34 42 30 38"></polygon>
+                        <polygon id="Fill-11" fill="#4EA105" fill-rule="evenodd" points="38 30 34 34 30 30 34 26"></polygon>
+                        <polygon id="Fill-13" fill="#4EA105" fill-rule="evenodd" points="34 26 38 30 42 26 38 22"></polygon>
+                        <polygon id="Fill-15" fill="#FFB800" fill-rule="evenodd" points="30 22 26 26 22 22 26 18"></polygon>
+                        <polygon id="Fill-17" fill="#FFDB00" fill-rule="evenodd" points="38 22 34 26 30 22 34 18"></polygon>
+                        <polygon id="Fill-19" fill="#FFDB00" fill-rule="evenodd" points="26 17.999 30 22 34 17.999 30 14"></polygon>
+                        <polygon id="Fill-21" fill="#FFB800" fill-rule="evenodd" points="34 26 30 30 26 26 30 22"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

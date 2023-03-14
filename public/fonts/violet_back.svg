@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="570px" height="908px" viewBox="0 0 570 908" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>9A5C2DAA-7E3D-440E-99A3-83ECB3DEB2DC</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="570" height="908" rx="4"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#6A619C" offset="0%"></stop>
+            <stop stop-color="#625A91" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Основные-экраны" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="главная-диз-1.1" transform="translate(-120.000000, -1042.000000)">
+            <g id="для-педагогов" transform="translate(120.000000, 1042.000000)">
+                <g id="Group-9">
+                    <g id="Group-8">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Rectangle" fill="#625A91" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <rect id="Rectangle" fill="url(#linearGradient-3)" fill-rule="nonzero" mask="url(#mask-2)" transform="translate(94.325342, 95.373502) rotate(-315.000000) translate(-94.325342, -95.373502) " x="-177.674658" y="-344.126498" width="544" height="879"></rect>
+                        <rect id="Rectangle" fill="url(#linearGradient-3)" fill-rule="nonzero" mask="url(#mask-2)" transform="translate(504.382430, 852.738636) rotate(-315.000000) translate(-504.382430, -852.738636) " x="394.38243" y="647.738636" width="220" height="410"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

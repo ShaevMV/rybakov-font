@@ -1,0 +1,281 @@
+.education {
+  min-height: calc(100vh - 90px);
+  display: flex;
+
+  #close_button {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+
+    @include mq(w770) {
+      display: block;
+    }
+  }
+
+  #ham_button {
+    display: none;
+    position: fixed;
+    font-size: 24px;
+    left: 20px;
+    top: 20px;
+    cursor: pointer;
+
+    @include mq(w770) {
+      display: block;
+    }
+  }
+
+  .left_edu {
+    width: 240px;
+    background-color: #625a91;
+    position: fixed;
+    left: 0;
+    height: calc(100vh - 90px);
+    overflow-y: auto;
+    z-index: 10;
+
+    &::-webkit-scrollbar {
+      width: 10px;
+      height: 10px;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+      background: #ada5dc;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      background: #8a7dd5;
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+      background: #847cb4;
+    }
+
+    @include mq(w770) {
+      width: 200px;
+    }
+
+    @include mq(w770) {
+      height: 100%;
+      left: -300px !important;
+      transition: 0.3s;
+      &.active {
+        left: 0 !important;
+      }
+    }
+
+    .top_part_edu {
+      padding: 50px 40px 50px 40px;
+      border-bottom: 1px solid #766ea4;
+
+      @include mq(w770) {
+        padding: 20px 20px 25px 20px;
+      }
+
+      h2 {
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 1.46;
+        letter-spacing: 0.4px;
+        color: #ffffff;
+        text-transform: uppercase;
+
+        @include mq(w770) {
+          font-size: 22px;
+        }
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #ffffff;
+        margin: 0;
+
+        @include mq(w770) {
+          font-size: 14px;
+        }
+      }
+    }
+
+
+    .bottom_part_edu {
+      padding: 50px 40px 60px 40px;
+
+      @include mq(w770) {
+        padding: 25px 20px 30px 20px;
+      }
+
+      .acc_block {
+        li {
+
+          .acc_title {
+            font-size: 16px;
+            font-weight: 500;
+            color: rgba(255, 255, 255, 0.5);
+            text-transform: uppercase;
+          }
+
+          &.uk-open {
+            .acc_title {
+              color: rgba(255, 255, 255, 1);
+            }
+          }
+
+
+          .inner_acc {
+            list-style-type: none;
+            padding: 0;
+
+            li {
+              margin-bottom: 30px;
+
+              a {
+                font-size: 14px;
+                font-weight: 500;
+                letter-spacing: 0.5px;
+                color: rgba(255, 255, 255, 0.5);
+                text-transform: uppercase;
+
+                &:hover {
+                  text-decoration: none;
+                  color: #fff;
+                }
+              }
+
+              &.active {
+                a {
+                  color: #fff;
+                }
+              }
+
+            }
+          }
+        }
+      }
+
+    }
+  }
+
+  .right_edu {
+    margin-left: 240px;
+    padding: 50px 60px 120px 60px;
+    width: calc(100vw - 240px);
+    position: relative;
+
+    @include mq(w770) {
+      margin-left: 0;
+      width: 100%;
+    }
+
+    @include mq(w680) {
+      padding: 25px 55px 120px 50px;
+    }
+
+
+    h1 {
+      font-size: 26px;
+      font-weight: 500;
+      letter-spacing: 0.4px;
+      color: #000000;
+      text-transform: uppercase;
+      margin-top: 0;
+      margin-bottom: 20px;
+
+      @include mq(w680) {
+        font-size: 22px;
+      }
+    }
+
+    .desc {
+      font-size: 16px;
+      line-height: 1.5;
+      color: #909090;
+      display: inline-block;
+
+      @include mq(w680) {
+        font-size: 14px;
+      }
+    }
+
+    .edu_width {
+      max-width: 730px;
+      margin-top: 40px;
+    }
+
+    h2 {
+      font-size: 16px;
+      font-weight: 500;
+      color: #000000;
+      line-height: 1.5;
+
+      @include mq(w680) {
+        font-size: 14px;
+      }
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+      color: #000000;
+
+      @include mq(w680) {
+        font-size: 14px;
+      }
+    }
+
+    .right_content {
+      max-width: 760px;
+    }
+
+
+    .link_block {
+      padding-left: 15px;
+      margin-top: 40px;
+
+      li {
+        font-size: 16px;
+        font-weight: 500;
+        color: #000000;
+
+        @include mq(w680) {
+          font-size: 14px;
+        }
+
+        &:not(:last-child) {
+          margin-bottom: 40px;
+        }
+
+        a {
+          font-size: 16px;
+          line-height: 1.5;
+          color: #08a1d2;
+          text-decoration: none;
+          display: block;
+          font-weight: normal;
+
+          @include mq(w680) {
+            font-size: 14px;
+          }
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+
+  }
+
+
+  .test_quest{
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+}

@@ -1,0 +1,189 @@
+.kg_bid {
+  .top_bid {
+    a {
+      font-size: 14px;
+      color: #08a1d2;
+      text-decoration: underline;
+
+      :hover {
+        text-decoration: none;
+      }
+    }
+
+    margin-bottom: 20px;
+  }
+
+  .new_bids {
+    margin-bottom: 40px;
+  }
+
+  .bid_block {
+
+    .top_btn_header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 40px;
+      justify-content: space-between;
+
+      @include mq(w968) {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .btn_bid {
+        width: 219px;
+        height: 45px;
+        line-height: 45px;
+        text-transform: uppercase;
+        display: none;
+
+        @include mq(w968) {
+          margin-top: 20px;
+        }
+      }
+
+      &.check {
+        .btn_bid {
+          display: block;
+        }
+      }
+    }
+
+
+    background: #fff;
+    padding: 50px 50px 45px 50px;
+    border-radius: 4px;
+
+    @include mq(w968) {
+      padding: 25px 25px 15px;
+    }
+
+    h2 {
+      font-size: 26px;
+      font-weight: 500;
+      letter-spacing: 0.4px;
+      color: #000000;
+      text-transform: uppercase;
+      margin-bottom: 0;
+
+      @include mq(w968) {
+        font-size: 22px;
+      }
+
+    }
+
+    .table_overlay {
+      overflow-x: auto;
+    }
+
+    .table_bid {
+      border-spacing: 0;
+      width: 100%;
+
+      @include mq(w968) {
+        width: 788px;
+      }
+
+      .header_table {
+        td {
+          border-bottom: none !important;
+
+        }
+      }
+
+      tr {
+
+        .data_bold {
+          font-weight: 500;
+        }
+
+        &:last-child {
+          td {
+            border-bottom: none;
+          }
+        }
+      }
+
+      td {
+        font-size: 14px;
+        color: #333333;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #eeeeee;
+
+        &:not(:last-child) {
+          padding-right: 70px;
+
+          @include mq(w968) {
+            padding-right: 40px !important;
+          }
+        }
+
+
+        &.table_check {
+          padding-left: 10px;
+          padding-right: 40px !important;
+
+          @include mq(w968) {
+            padding-right: 30px !important;
+          }
+
+          .input_checkbox{
+            vertical-align: middle;
+            display: inline-block;
+          }
+
+          .link_check {
+            &:before {
+              margin-bottom: 0 !important;
+            }
+          }
+
+        }
+
+
+        &.bid_link {
+          padding-right: 10px;
+
+          a {
+            font-size: 14px;
+            color: #08a1d2;
+            text-decoration: underline;
+
+            &:hover {
+              text-decoration: none;
+            }
+          }
+
+          &.eval_opacity {
+            .mark {
+              display: none;
+            }
+
+            .evaluate {
+              color: rgba(8, 161, 210, 0.5);
+              pointer-events: none;
+            }
+          }
+
+
+          &.exist_and_not_eval {
+            .mark {
+              display: none;
+            }
+          }
+
+
+          &.exist_and_eval {
+            .evaluate {
+              display: none;
+            }
+          }
+
+        }
+      }
+    }
+
+
+  }
+}

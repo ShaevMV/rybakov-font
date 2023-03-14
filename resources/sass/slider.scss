@@ -1,0 +1,97 @@
+.carousel_wrap {
+  //height:360px;
+  min-height: 270px;
+  position:relative;
+  //margin-bottom:30px;
+}
+
+/*--water_whjeel_carousel--*/
+#carousel img {
+  opacity:0;
+  //width:360px;
+  //height:330px;
+
+  width: 664px;
+  height: 270px;
+
+  @include mq(w680){
+    height: 370px;
+  }
+}
+#carousel {
+  //width:1200px;
+  margin:0 auto;
+  //margin-top:50px;
+  //height:350px;
+  height: 270px;
+  position:relative;
+  clear:both;
+  //overflow:hidden;
+
+  @include mq(w680){
+    height: 370px;
+  }
+}
+#carousel > div {
+  visibility:hidden;
+  cursor:pointer;
+  border-radius: 2px;
+  box-shadow: 0 0 7px 0 rgba(187, 187, 187, 0.45);
+}
+#carousel .caption {
+  position: absolute;
+  background-color:#FFF;
+  top: 0;
+  left: 0;
+  height:100%;
+  width:100%;
+}
+
+
+.carous_item {
+  position:absolute;
+  height:100%;
+  width:100%;
+  box-sizing:border-box;
+  display:block;
+}
+
+
+
+.carousel_wrap .nav_button {
+  position:absolute;
+  left:0;
+  top:45%;
+  margin-top:-30px;
+  width: 59px;
+  height: 59px;
+  right:0;
+  cursor:pointer;
+  display:inline-block;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size:contain;
+  transition:all 0.3s ease;
+  z-index: 100;
+
+  &:hover{
+    opacity: 0.6;
+  }
+}
+.carousel_wrap .nav_button.prev_button {
+  left:50px;
+  background-image: url("../images/yellow_arrow1.svg");
+
+  @include mq(w1000){
+    left: 0;
+  }
+}
+.carousel_wrap .nav_button.next_button {
+  left:auto;
+  right:50px;
+  background-image: url("../images/yellow_arrow2.svg");
+
+  @include mq(w1000){
+    right: 0;
+  }
+}

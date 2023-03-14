@@ -1,0 +1,61 @@
+.modal_block_overlay {
+  background-color: rgba(55, 56, 67, 0.95) !important;
+  padding: 45px 20px;
+
+  .modal_block {
+    padding: 60px 100px;
+    position: relative;
+
+    @include mq(w500){
+      padding: 30px 50px;
+    }
+
+    .custom_close_button {
+      position: absolute;
+      top: -5px;
+      right: -10px;
+      background: url("../images/close_white_button.svg");
+      width: 21px;
+      height: 21px;
+      cursor: pointer;
+
+      svg {
+        display: none;
+      }
+    }
+
+    img {
+      margin-bottom: 40px;
+
+      @include mq(w500){
+        margin-bottom: 20px;
+      }
+
+    }
+
+    .modal-par {
+      font-size: 24px;
+      line-height: 1.5;
+      text-align: center;
+      color: #000000;
+
+      @include mq(w500){
+          font-size: 18px;
+      }
+    }
+
+
+    .modal_desc{
+      font-size: 18px;
+      line-height: 1.5;
+      text-align: center;
+      color: #000000;
+
+      @include mq(w500){
+        font-size: 14px;
+      }
+    }
+
+  }
+
+}

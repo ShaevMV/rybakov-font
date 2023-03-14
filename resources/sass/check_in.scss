@@ -1,0 +1,45 @@
+.add_check_block{
+  padding-top: 40px;
+}
+.go_back{
+  margin-bottom: 40px;
+}
+.switcher_block{
+  border-bottom: 1px solid #f0f0f0;
+
+  ul{
+    list-style-type: none;
+    padding: 0 35px;
+
+    @include mq(w500){
+      padding: 0 5px;
+    }
+
+    li{
+      padding: 30px 15px;
+      font-size: 16px;
+      text-align: center;
+      color: #909090;
+      cursor: pointer;
+      margin-right: 10px;
+
+      @include mq(w500){
+        padding: 20px 5px;
+      }
+
+      &.active_link{
+        border-bottom: 3px solid #f2cc35;
+        color: #333333;
+      }
+
+      &:last-child{
+        margin-right: 0 !important;
+      }
+    }
+  }
+}
+
+.mistake_alert{
+  font-size: 15px;
+  color: #ff3939;
+}

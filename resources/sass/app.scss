@@ -1,0 +1,30 @@
+@import "mixins";
+
+//Подключаем UIKit
+@import "variables.scss";
+@import "fonts.scss";
+@import "~uikit/src/scss/uikit.scss";
+@import "common";
+
+/*@import "~slick-carousel/slick/slick";
+@import "~slick-carousel/slick/slick-theme";*/
+
+@import "make_request";
+@import "check_in";
+@import "popups";
+@import "header";
+@import "footer";
+@import "kg_acc";
+@import "inner_pages";
+@import "user_office";
+@import "test";
+@import "group_participants";
+@import "expert_rating_group";
+@import "kg_bid";
+@import "navigation";
+@import "eval_training";
+@import "edu";
+@import "test_custom_ans";
+@import "landing";
+@import "diagram";
+@import "extends";

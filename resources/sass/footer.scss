@@ -1,0 +1,94 @@
+#footer {
+  height: 164px;
+  background-color: #2d2f2e;
+
+
+  .footer_left {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #ffffff;
+    max-width: 400px;
+
+    @include mq(w550) {
+      font-size: 12px;
+    }
+  }
+
+  .footer_right {
+
+    a {
+      margin-right: 15px;
+
+      &:last-child {
+        margin-right: 0 !important;
+      }
+    }
+
+    .footer-vk {
+      background: url("../images/vk_footer.png");
+      width: 45px;
+      height: 45px;
+
+      &:hover {
+        background: url("../images/vk_hover.png");
+      }
+
+      &:focus, &:active, &:visited {
+        background: url("../images/vk_pressed.png");
+      }
+    }
+
+    .footer-google {
+      background: url("../images/google_footer.png");
+      width: 45px;
+      height: 45px;
+
+      &:hover {
+        background: url("../images/google_hover.png");
+      }
+
+      &:focus, &:active, &:visited {
+        background: url("../images/google_pressed.png");
+      }
+    }
+
+
+    .footer-facebook {
+      background: url("../images/facebook_footer.png");
+      width: 45px;
+      height: 45px;
+
+      &:hover {
+        background: url("../images/facebook_hover.png");
+      }
+
+      &:focus, &:active, &:visited {
+        background: url("../images/facebook_pressed.png");
+      }
+    }
+
+
+    .footer-twitter {
+      background: url("../images/twitter_footer.png");
+      width: 45px;
+      height: 45px;
+
+      &:hover {
+        background: url("../images/twitter_hover.png");
+      }
+
+      &:focus, &:active, &:visited {
+        background: url("../images/twitter_pressed.png");
+      }
+    }
+  }
+
+  .footer_overlay {
+    @include mq(w768) {
+      justify-content: space-around !important;
+      flex-direction: column !important;
+      padding: 20px;
+    }
+  }
+
+}

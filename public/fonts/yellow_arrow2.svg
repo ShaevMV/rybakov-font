@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="59px" height="59px" viewBox="0 0 59 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>31E306CD-09EA-492C-BE37-439418F5F03F</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="22.5" cy="22.5" r="22.5"></circle>
+        <filter x="-27.8%" y="-18.9%" width="155.6%" height="155.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.592156863   0 0 0 0 0.596078431   0 0 0 0 0.619607843  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Основные-экраны" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="главная-диз-1.1" transform="translate(-1268.000000, -6753.000000)">
+            <g id="Group-42" transform="translate(1268.000000, 6753.000000)">
+                <g id="1" transform="translate(29.500000, 25.500000) scale(-1, 1) translate(-29.500000, -25.500000) translate(7.000000, 3.000000)">
+                    <g id="Oval-9">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#F2CC35" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="baseline-arrow_forward-24px" transform="translate(22.250000, 22.750000) scale(-1, 1) translate(-22.250000, -22.750000) translate(10.750000, 11.250000)">
+                        <polygon id="Shape" points="0 0 22.5 0 22.5 22.5 0 22.5"></polygon>
+                        <path d="M10.5890625,4.4109375 L10.5890625,4.4109375 C10.2239411,4.77605888 10.2236762,5.36795583 10.5884705,5.73340394 L15.159375,10.3125 L4.6875,10.3125 C4.16973305,10.3125 3.75,10.732233 3.75,11.25 L3.75,11.25 C3.75,11.767767 4.16973305,12.1875 4.6875,12.1875 L15.159375,12.1875 L10.5884705,16.7665961 C10.2236762,17.1320442 10.2239411,17.7239411 10.5890625,18.0890625 L10.5890625,18.0890625 C10.9540882,18.4540882 11.5459118,18.4540882 11.9109375,18.0890625 L17.3357864,12.6642136 C18.116835,11.883165 18.116835,10.616835 17.3357864,9.83578644 L11.9109375,4.4109375 C11.5459118,4.0459118 10.9540882,4.0459118 10.5890625,4.4109375 Z" id="Shape" fill="#333333" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

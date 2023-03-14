@@ -1,0 +1,158 @@
+.wrapper {
+  background-color: $wrapper-background;
+  min-height: 100vh;
+}
+
+.form_overlay {
+
+  @include mq(w768){
+    padding: 30px !important;
+  }
+
+  h2 {
+    text-align: center;
+    color: $black-color;
+    font-size: 34px;
+
+    @include mq(w680){
+      font-size: 26px;
+    }
+  }
+
+  h3 {
+    margin-top: 35px;
+    margin-bottom: 45px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    max-width: 700px;
+
+
+    @include mq(w680){
+      font-size: 14px;
+    }
+  }
+
+  &_block {
+    width: 725px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 rgba(151, 152, 158, 0.25);
+    background-color: $global-background;
+    padding: 40px 50px 35px 50px;
+    margin-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @include mq(w768){
+      width: 100%;
+    }
+
+    @include mq(w680){
+      padding: 25px 25px 15px 25px;
+    }
+
+
+    h2 {
+      color: $black-color;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      letter-spacing: 0.5px;
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 45px;
+
+      @include mq(w680){
+        font-size: 14px;
+        margin-bottom: 25px;
+      }
+    }
+
+    .input_wrapper {
+      border-radius: 4px;
+      background-color: #f5f6f7;
+      padding: 10px 20px;
+      margin-bottom: 25px;
+      min-height: 66px;
+      position: relative;
+
+      label {
+        font-size: 16px;
+        color: #909090;
+        position: absolute;
+        transition: 0.3s;
+        cursor: pointer;
+
+        @include mq(w680){
+          font-size: 14px;
+        }
+
+      }
+
+      input, textarea {
+        min-height: 45px;
+        cursor: pointer;
+        resize:none;
+      }
+
+      select {
+        width: 0px;
+        cursor: pointer;
+      }
+
+
+      &.active {
+        label {
+          position: relative;
+          font-size: 12px;
+          color: #8f959c;
+          margin-bottom: 8px;
+          transition: 0.3s;
+          cursor: auto;
+        }
+
+        input {
+          background: transparent;
+          min-height: auto;
+          cursor: auto;
+        }
+
+        textarea {
+          background: transparent;
+          min-height: 90px;
+          cursor: auto;
+        }
+
+        select {
+          width: auto;
+          cursor: auto;
+        }
+      }
+
+      &.success {
+        position: relative;
+        &:after {
+          content: "";
+          position: absolute;
+          display: block;
+          background: url("../images/success_form.svg");
+          width: 18px;
+          height: 14px;
+          right: 20px;
+          top: 0;
+          bottom: 0;
+          margin-top: auto;
+          margin-bottom: auto;
+        }
+      }
+
+      &.failed{
+        border: 1px solid #ff3939;
+
+        label, input {
+          color: #ff3939;
+        }
+      }
+    }
+  }
+}

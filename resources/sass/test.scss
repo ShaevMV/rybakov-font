@@ -1,0 +1,47 @@
+.test_block {
+  &.test_box {
+    margin-top: 30px;
+    max-width: 815px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 rgba(151, 152, 158, 0.35);
+    background-color: #ffffff;
+    padding: 50px 60px;
+    margin-bottom: 130px;
+
+    @include mq(w768) {
+      padding: 25px 25px 15px;
+    }
+  }
+
+  &.edu_test {
+    margin-top: 40px;
+  }
+
+  .question_block {
+
+    &:not(:last-child) {
+      margin-bottom: 60px;
+    }
+
+    .question_header {
+      font-size: 16px;
+      font-weight: 500;
+      color: #000000;
+
+      @include mq(w500) {
+        font-size: 14px;
+      }
+    }
+
+    .question_desc {
+      font-size: 16px;
+      line-height: 1.5;
+      color: #000000;
+
+      @include mq(w500) {
+        font-size: 14px;
+      }
+    }
+  }
+}
